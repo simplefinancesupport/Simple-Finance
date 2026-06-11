@@ -80,9 +80,9 @@
     </section>
     <section class="card">
       <h2>Market Data (Stocks &amp; Crypto Prices)</h2>
-      <p>If you add stock or cryptocurrency holdings to your portfolio, Simple Finance fetches current market prices from Apple&#x27;s financial data APIs (via the system frameworks on your device). These requests:</p>
-<ul><li>Are initiated by your device directly through Apple&#x27;s infrastructure</li><li>Include only publicly available ticker symbols (e.g., &quot;AAPL&quot;, &quot;BTC&quot;) — never your account balances or personal details</li><li>Are subject to Apple&#x27;s own privacy policy for data requests made through their APIs</li></ul>
-<p>Simple Finance does not operate its own price feed server. If no holdings are added, no market data requests are made.</p>
+      <p>If you add stock or cryptocurrency holdings to your portfolio, Simple Finance fetches current market prices from third-party public market-data services — Yahoo Finance (stock quotes) and CoinGecko (cryptocurrency prices). These requests:</p>
+<ul><li>Are made by your device directly to those services over an encrypted connection (HTTPS)</li><li>Include only publicly traded ticker symbols (e.g., &quot;AAPL&quot;, &quot;BTC&quot;) — never your balances, share counts, name, or any personal details</li><li>Carry no tracking identifiers, and are subject to those services&#x27; own privacy policies</li></ul>
+<p>Simple Finance does not operate its own price feed server. If no holdings are added, no market data requests are made at all.</p>
     </section>
     <section class="card">
       <h2>Notifications</h2>
