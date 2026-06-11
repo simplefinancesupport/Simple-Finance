@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simple Finance — Support</title>
+<style>
+  :root { --accent:#00C896; --accent2:#00A878; --ink:#1c1c1e; --muted:#6b7280; --bg:#f2f2f7; --card:#ffffff; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         color:var(--ink); background:var(--bg); line-height:1.55; }
+  .header { background:linear-gradient(135deg,var(--accent),var(--accent2)); color:#fff;
+            padding:48px 24px; }
+  .header .wrap { max-width:760px; margin:0 auto; }
+  .badge { display:inline-flex; align-items:center; justify-content:center; width:56px; height:56px;
+           border-radius:50%; background:rgba(255,255,255,.2); font-size:26px; margin-bottom:14px; }
+  .header .kicker { font-size:13px; font-weight:600; opacity:.85; margin:0; }
+  .header h1 { font-size:30px; font-weight:800; margin:2px 0 12px; }
+  .header p { font-size:15px; opacity:.92; margin:0; max-width:60ch; }
+  main { max-width:760px; margin:0 auto; padding:24px 16px 56px; }
+  .card { background:var(--card); border-radius:14px; padding:20px 22px; margin:0 0 16px;
+          box-shadow:0 1px 3px rgba(0,0,0,.06); }
+  .card h2 { font-size:18px; font-weight:700; margin:0 0 10px; color:var(--ink); }
+  .card p { margin:0 0 10px; }
+  .card ul { margin:0 0 10px; padding-left:20px; }
+  .card li { margin:4px 0; }
+  .card :last-child { margin-bottom:0; }
+  .btn { display:inline-block; background:var(--accent2); color:#fff; font-weight:600;
+         padding:10px 18px; border-radius:999px; text-decoration:none; }
+  .footer { text-align:center; color:var(--muted); font-size:13px; padding:8px 0 0; }
+  a { color:var(--accent2); }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="wrap">
+      <div class="badge">💬</div>
+      <p class="kicker">Simple Finance</p>
+      <h1>Support</h1>
+      <p>Questions, problems, or ideas? We're happy to help — most emails get a reply within a couple of days.</p>
+    </div>
+  </div>
+  <main>
+    <div class="card">
+      <h2>Contact us</h2>
+      <p>Email is the fastest way to reach us. Include what you were doing and what you expected to happen — screenshots help a lot.</p>
+      <p><a class="btn" href="mailto:simplefinancesupport@gmail.com?subject=Simple%20Finance%20Support">Email Support</a></p>
+      <p style="color:var(--muted);font-size:14px;">simplefinancesupport@gmail.com</p>
+    </div>
+
+    <div class="card">
+      <h2>Frequently asked questions</h2>
+      <p><strong>Where is my data stored?</strong><br>
+      On your device. If you turn on iCloud Sync (Settings → iCloud Sync), your data also syncs through your own personal iCloud — we never see it. See the <a href="./">privacy policy</a> for details.</p>
+      <p><strong>How do I sync between my iPhone and iPad?</strong><br>
+      Turn on Settings → iCloud Sync on both devices (signed into the same Apple ID) and restart the app. Changes flow both ways automatically.</p>
+      <p><strong>How does sharing with my spouse or family work?</strong><br>
+      Settings → iCloud Sharing. A spouse/partner gets full two-way live syncing of your shared finances; family members get a read-only summary you control. Send invites through Messages and pick the person directly — don't copy the link.</p>
+      <p><strong>How do I back up my data?</strong><br>
+      Settings → Data &amp; Backup → Export creates a complete JSON backup you can store anywhere. You can also turn on weekly automatic backups to iCloud Drive. Restoring a backup adds your data back — it never wipes anything.</p>
+      <p><strong>How do I lock the app?</strong><br>
+      Settings → Privacy &amp; Security → App Lock uses Face ID or Touch ID. You can also blur amounts on screen with the eye icon.</p>
+      <p><strong>What is Fin?</strong><br>
+      Fin is the built-in money assistant. It runs entirely on your device using Apple Intelligence (iOS 26 or later) — your questions and finances never leave your phone.</p>
+      <p><strong>Something looks wrong after an update.</strong><br>
+      Force-quit the app and reopen it. If it persists, email us with your iOS version and what you're seeing.</p>
+    </div>
+
+    <div class="card">
+      <h2>Feature requests</h2>
+      <p>Simple Finance is actively developed and we genuinely read every suggestion. Email us with "Feature request" in the subject — or use Settings → Help &amp; Support → Feature Request inside the app.</p>
+    </div>
+
+    <p class="footer">Simple Finance · <a href="./">Privacy Policy</a></p>
+  </main>
+</body>
+</html>
